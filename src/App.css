@@ -1,0 +1,26 @@
+:root {
+    --primary: #fa3c33;
+    --secondary: #9b9b9b;
+    --tertiary: #9b9b9b;
+  }
+
+.mainmain {
+    margin-top: 64px;
+}
+
+@media (min-width: 769px) {
+    .app {
+        animation-name: popin;
+        animation-duration: 250ms;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease;
+    }
+    @keyframes popin {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+  }

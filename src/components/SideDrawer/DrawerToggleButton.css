@@ -1,0 +1,17 @@
+.toggle-button {
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.toggle-button i {
+    font-size: 2rem;
+    color: var(--secondary);
+}
+.toggle-button:focus {
+    outline: none;
+}

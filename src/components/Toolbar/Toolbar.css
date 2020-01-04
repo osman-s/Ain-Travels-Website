@@ -1,0 +1,107 @@
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  z-index: 999;
+}
+.nav-scrolled {
+  background: green;
+}
+.toolbar-navigation {
+  height: 100%;
+  padding: 0 1rem;
+  background: white;
+}
+.social-links ul {
+  font-size: 1.7vh;
+}
+.social-links a {
+  transition: color 200ms ease-in-out;
+}
+.social-links a:hover,
+.social-links a:active {
+  color: var(--primary);
+}
+.nav-links ul {
+  font-size: 1.3vh;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -2.5rem;
+  text-align: center;
+  align-items: center;
+}
+.logo a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: color 200ms ease-in-out;
+}
+.logo a:hover {
+  color: var(--primary);
+  font-style: normal;
+}
+.toolbar-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.toolbar-navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toolbar-navigation-items li {
+  display: inline;
+  padding: 0 .5rem; 
+}
+.toolbar-navigation-items a {
+  opacity: 1;
+  transition: opacity 5s ease;
+  display: inline;
+  color: var(--secondary);
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .toolbar-navigation-items {
+    display: none;
+  }
+  .toolbar-toggle-button {
+    position: absolute;
+    left: 89%
+  }
+  .toolbar {
+    height: 9vh;
+  }
+  /* for disabling logo
+  .logo.disabled {
+    pointer-events: none;
+    cursor: default;
+  } */
+}
+
+@media (min-width: 769px) {
+  .toolbar-toggle-button {
+    display: none;
+  }
+  .toolbar {
+    height: 5vh;
+  }
+  .toolbar-navigation-items a {
+    font-size: .9rem;
+  }
+.toolbar-navigation-items a:active {
+  /* animation-name: fade-out;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; */
+  opacity: 0;
+}
+}
+/* .nav-item:active {
+  color: #000;
+} */
