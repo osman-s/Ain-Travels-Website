@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "../App.css"
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
+import "../App.css";
+import Slider from "react-animated-slider";
+import "react-animated-slider/build/horizontal.css";
 // import Toolbar from "./components/Toolbar/Toolbar";
 // import SideDrawer from "./components/SideDrawer/SideDrawer";
-
 
 // const header = document.querySelector("header");
 // const sectionOne = document.querySelector(".home-intro");
@@ -28,15 +27,24 @@ import 'react-animated-slider/build/horizontal.css';
 // sectionOneOptions);
 
 // sectionOneObserver.observe(sectionOne);
-
+const slides = [
+  { title: "First item", description: "Lorem ipsum" },
+  { title: "Second item", description: "Lorem ipsum" }
+];
 class Home extends React.Component {
-
-
   render() {
     return (
       <div style={{ height: "100%" }} className="app">
         {/* <Toolbar ToggleDrawer={this.ToggleDrawer} /> */}
         <main style={{ marginTop: "10vh" }}>
+          <Slider>
+            {slides.map((slide, index) => (
+              <div key={index}>
+                <h2>{slide.title}</h2>
+                <div>{slide.description}</div>
+              </div>
+            ))}
+          </Slider>
           <p style={{ padding: "1.5rem" }}>
             This is the page content! Lorem ipsum dolor sit amet, consectetur
             adipiscing elit. Morbi euismod varius urna, vitae rhoncus diam

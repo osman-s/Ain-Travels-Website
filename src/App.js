@@ -34,7 +34,6 @@ class App extends Component {
             show={this.state.SideDrawerOpen}
             ToggleDrawer={this.ToggleDrawer}
           /> : <Toolbar ToggleDrawer={this.ToggleDrawer} />}
-        
         <main className="container">
           <Switch>
             {/* <Route path="/projectissues" component={ProjectIssues} /> */}

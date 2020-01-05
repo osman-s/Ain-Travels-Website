@@ -10,12 +10,12 @@ const toolbar = props => (
             <ul className='link-transition'>
               <li><a href='https://twitter.com/ainul_haramain' target="_blank"><i class="fab fa-twitter"></i></a></li>
               <li><a href='https://www.facebook.com/ainulharamainhajj' target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href='https://www.instagram.com/ainulharamain/' target="_blank"><i class="fab fa-instagram"></i></a></li>
-              <li><a href='https://www.youtube.com/channel/UCiBIqsvCBB2xbh0v5z2WTEA' target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a href='https://www.instagram.com/ainulharamainhajj/' target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href='https://www.youtube.com/channel/UCWLoJ_qZBZ_yo-DmvFOAcnQ/featured' target="_blank"><i class="fab fa-youtube"></i></a></li>
             </ul>
       </div>
       
-      <div className="logo disabled"><a href="/">Ain Travels</a></div>
+      <div className="logo disabled"><a href="/">Ainul Harmain</a></div>
       
         <div className="toolbar-navigation-items nav-links navbar-nav">
           <ul>
