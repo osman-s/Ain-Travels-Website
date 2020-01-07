@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../App.css";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
@@ -151,6 +151,7 @@ class Home extends React.Component {
             quis risus at ipsum feugiat molestie eu vitae nunc. Mauris
             scelerisque pellentesque nibh, ac posuere ligula ultrices vel.
           </p>
+          <button className="btn btn-primary">Hit me</button>
         </main>
       </div>
     );

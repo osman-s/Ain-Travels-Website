@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../App.css";
 
 class About extends React.Component {
@@ -7,8 +7,8 @@ class About extends React.Component {
       <div style={{ height: "100%" }} className="app">
         {/* <Toolbar ToggleDrawer={this.ToggleDrawer} /> */}
         <main style={{ marginTop: "10vh" }}>
-          <h1 className="hello">About</h1>
-          <div>
+          <div className="spacer">
+            <h1 className="hello">About</h1>
             Ainul Haramain took its start in 2005 with Hajj taking 50 passengers
             in the first year with a goal of serving hujjaj from North America.
             Within a few years Ainul Haramain was licisened for Umrah. As the
@@ -25,6 +25,13 @@ class About extends React.Component {
             companies for Hajj and Umrah in North America. Ainul Haramain is an
             authorized company by the Ministry of Hajj and Umrah to serve
             pilgrims in the United States of America.
+          </div> <br></br> <br></br>
+          <div>
+            <h1 className="hello">Future Vision</h1>
+            Ainul Haramain is aiming to add more Muslim friendly tourist
+            destination in furure like Places in Saudi Arabia outside Makkah and
+            madinah, Turkey and Egypt with Umrah. Continue to serve pilgrims of
+            Hajj and Umrah with Quality and affordability.
           </div>
         </main>
       </div>
