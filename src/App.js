@@ -3,7 +3,7 @@ import { Route, Redirect, Switch } from "react-router-dom";
 // import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
-import Contact from "./components/contact";
+import Contact from "./components/contact/contact";
 import About from "./components/about";
 import Umrah from "./components/umrah";
 import Hajj from "./components/hajj";

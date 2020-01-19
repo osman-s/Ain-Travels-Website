@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 9vh;
+  margin-top: 12vh;
 }
 .side-nav-links div {
   padding-top: 0.5rem;
@@ -35,7 +35,7 @@
 }
 .side-nav-links div a {
   color: var(--secondary);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .social-buttonss {
   width: 100%;
@@ -49,8 +49,8 @@
   flex-wrap: wrap;
 }
 .social-l {
-  padding: 0 1.5rem 0 1.5rem;
-  font-size: 1.5rem;
+  padding: 0 1.2rem 0 1.2rem;
+  font-size: 2.5rem;
   color: var(--tertiary);
 }
 .social-l a {
