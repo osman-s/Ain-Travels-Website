@@ -1,26 +1,68 @@
+.contactor {
+  color: var(--secondary);
+}
 .office {
-  color: var(--tertiary);
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .branch {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  border-bottom: 0.5px solid rgb(221, 221, 221);
 }
+
 .contact {
-  color: var(--tertiary);
+  color: var(--secondary);
   padding-top: 1.5vh;
+  display: flex;
+  flex-direction: column;
 }
 .title {
-    font-size: 1.5rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+.name {
+  display: flex;
 }
 .phone {
-  color: var(--primary);
+  display: flex;
 }
 @media (max-width: 768px) {
-  .thread-image {
-    width: 60vw;
+  .contactor {
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
   }
-  .thread-username {
-    font-size: 1rem;
-    color: #dadedf;
+  .branch {
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+  }
+  .address {
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    color: var(--secondary);
+    padding-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+  }
+  .phone {
+    display: flex;
+    justify-content: center;
   }
 }
 

@@ -4,7 +4,7 @@ import { Route, Redirect, Switch } from "react-router-dom";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Contact from "./components/contact/contact";
-import About from "./components/about";
+import About from "./components/about/about";
 import Umrah from "./components/umrah";
 import Hajj from "./components/hajj";
 import Home from "./components/home";

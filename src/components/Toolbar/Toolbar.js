@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import "./Toolbar.css";
 
@@ -15,7 +15,7 @@ const toolbar = props => (
             </ul>
       </div>
       
-      <div className="logo disabled"><a href="/">Ainul Harmain</a></div>
+      <div className="logo"><Link to="/">Ainul Harmain</Link></div>
       
         <div className="toolbar-navigation-items nav-links navbar-nav">
           <ul>
