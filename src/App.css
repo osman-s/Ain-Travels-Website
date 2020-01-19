@@ -9,20 +9,14 @@ a:link {
 .mainmain {
   margin-top: 64px;
 }
+h1 {
+  font-size: 2.3 rem;
+}
+@media (max-width: 768px) {
+  .buffer-1 {
+    height: 25vh;
+  }
+}
 
 @media (min-width: 769px) {
-  .app {
-    animation-name: popin;
-    animation-duration: 250ms;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease;
-  }
-  @keyframes popin {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
 }

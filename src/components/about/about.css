@@ -1,18 +1,15 @@
 .aboutor {
     color: var(--secondary);
 }
+.about-header {
+    font-size: 2.3rem;
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+  }
 .about-text {
-    font-size: 1.3rem;
+    /* font-size: 1.2rem; */
     padding: 0 1vw 0 1vw;
 }
 @media (max-width: 768px) {
-    .thread-image {
-      width: 60vw;
-    }
-    .thread-username {
-      font-size: 1rem;
-      color: #dadedf;
-    }
   }
   
   @media (min-width: 769px) {

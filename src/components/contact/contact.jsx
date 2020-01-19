@@ -58,6 +58,7 @@ class Contact extends React.Component {
               <a href="tel:(678) 593-6262">(678) 593-6262</a>
             </div>
           </div>
+          <div className="buffer-1"></div>
         </main>
       </div>
     );
