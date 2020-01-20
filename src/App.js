@@ -6,7 +6,7 @@ import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Contact from "./components/contact/contact";
 import About from "./components/about/about";
 import Umrah from "./components/umrah";
-import Hajj from "./components/hajj";
+import Hajj from "./components//hajj/hajj";
 import Home from "./components/home";
 import NotFound from "./components/notFound";
 import "./App.css";

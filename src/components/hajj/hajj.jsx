@@ -1,12 +1,12 @@
 import React from "react";
-import "../App.css";
+import "./hajj.css";
 
-class Umrah extends React.Component {
+class Hajj extends React.Component {
   render() {
     return (
       <div style={{ height: "100%" }} className="app">
         <main style={{ marginTop: "10vh" }}>
-          <h1 className="hello">Umrah</h1>
+          <h1 className="hello">Hajj</h1>
           <div className="cards">
             <div className="card-container">
               <div className="card">
@@ -44,4 +44,4 @@ class Umrah extends React.Component {
   }
 }
 
-export default Umrah;
+export default Hajj;

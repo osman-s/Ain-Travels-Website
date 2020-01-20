@@ -12,6 +12,9 @@ a:link {
 h1 {
   font-size: 2.3 rem;
 }
+body {
+  color: var(--secondary);
+}
 @media (max-width: 768px) {
   .buffer-1 {
     height: 25vh;
